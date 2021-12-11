@@ -1,0 +1,8 @@
+
+
+n=0
+while (( $n <= 10 ))
+do
+	echo "Adeu $n vegades"
+	n=$(( n+1 ))	
+done

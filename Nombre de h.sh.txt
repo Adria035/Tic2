@@ -1,0 +1,11 @@
+conta=0
+paraules=("h" "z" "d" "j" "d" "g" "h" "j" "h" "a" "H")
+
+for var in ${paraules[@]}
+do
+    if [[ $var == "h" ]] || [[ $var == "H" ]]
+    then 
+        conta=$(($conta+1))
+    fi
+done
+echo "El nombre de h és $conta"
